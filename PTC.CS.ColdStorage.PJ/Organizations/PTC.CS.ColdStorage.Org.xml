@@ -9,7 +9,7 @@
          documentationContent=""
          homeMashup="PTC.CS.ColdStorage.MU"
          loginButtonStyle="DefaultButtonStyle"
-         loginPrompt=""
+         loginPrompt="Enter Login Credentials"
          loginResetPassword="false"
          loginStyle="DefaultAutoRefreshToggleStyle"
          mobileMashup=""
@@ -213,8 +213,22 @@
                 <Connection
                  from="PTC.CS.ColdStorage.Org"
                  to="SiteCreators"></Connection>
+                <Connection
+                 from="PTC.CS.ColdStorage.Org"
+                 to="NewYorkColdStorageRoom"></Connection>
             </Connections>
             <OrganizationalUnits>
+                <OrganizationalUnit
+                 description=""
+                 name="NewYorkColdStorageRoom">
+                    <Members>
+                        <Members>
+                            <Member
+                             name="PTC.CS.NewYork.Group"
+                             type="Group"></Member>
+                        </Members>
+                    </Members>
+                </OrganizationalUnit>
                 <OrganizationalUnit
                  description=""
                  name="PTC.CS.ColdStorage.Org">
