@@ -1917,7 +1917,7 @@
                                         "MinorTickLength" : 4,
                                         "MinorTicks" : 4,
                                         "NeedleDiameter" : 10,
-                                        "NeedleStyle" : "DefaultGaugeNeedleStyle",
+                                        "NeedleStyle" : "DefaultChartStyle2",
                                         "ReferenceAngle" : 225,
                                         "ResponsiveLayout" : true,
                                         "RingWidth" : 10,
