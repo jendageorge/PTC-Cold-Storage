@@ -576,7 +576,7 @@
                                                 tags: tags
                                             };
                                             Resources["EntityServices"].CreateUser(params);
-                                            logger.debug(userName + " user created.");
+                                            logger.warn(userName + " user created.");
                                         }
                                         catch(err) {
                                             try { // Attempt to delete potential ghost user.
