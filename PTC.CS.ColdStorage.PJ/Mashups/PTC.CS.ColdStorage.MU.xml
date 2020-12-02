@@ -1897,7 +1897,7 @@
                                         "FormatNeedle" : true,
                                         "GaugeBorder" : 5,
                                         "GaugeBorderStyle" : "DefaultGaugeBorderStyle",
-                                        "GaugeFaceStyle" : "DefaultGaugeFaceStyle",
+                                        "GaugeFaceStyle" : "DefaultChartStyle22",
                                         "GaugeStyle" : "DefaultGaugeStyle",
                                         "Height" : 200,
                                         "Id" : "gauge-61",
