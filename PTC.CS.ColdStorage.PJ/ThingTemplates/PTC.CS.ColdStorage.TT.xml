@@ -68,6 +68,8 @@
             <RemoteEventBindings></RemoteEventBindings>
             <AlertConfigurations>
                 <AlertDefinitions
+                 name="BarometricPressure"></AlertDefinitions>
+                <AlertDefinitions
                  name="Humidity">
                     <AlertDefinition
                      alertType="Above"
@@ -208,6 +210,15 @@
             </AlertConfigurations>
             <ThingShape>
                 <PropertyDefinitions>
+                    <PropertyDefinition
+                     aspect.cacheTime="0.0"
+                     aspect.dataChangeType="VALUE"
+                     baseType="NUMBER"
+                     category=""
+                     description=""
+                     isLocalOnly="false"
+                     name="BarometricPressure"
+                     ordinal="6"></PropertyDefinition>
                     <PropertyDefinition
                      aspect.dataChangeType="VALUE"
                      aspect.isLogged="true"
