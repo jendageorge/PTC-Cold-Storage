@@ -831,7 +831,7 @@
                               "Left" : 227,
                               "Margin" : "5",
                               "MaxNumberOfCharacters" : 1000000,
-                              "Password" : false,
+                              "Password" : true,
                               "ReadOnly" : false,
                               "ResponsiveLayout" : false,
                               "ShowClearText" : false,
